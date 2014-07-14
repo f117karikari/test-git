@@ -1,5 +1,13 @@
 package main;
 public class Calc {
+	public int x;
+	public int y;
+	
+	public void reset(){
+		x = 0;
+		y = 0;
+		return;
+	}
 	
 	public int tashi(int x,int y){
 		return x + y;
